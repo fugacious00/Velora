@@ -47,21 +47,6 @@ npm run lint     # TypeScript type checking
 npm run preview  # Preview production build locally
 ```
 
-## 📁 Project Structure
-
-```
-src/
-├── components/      # React UI components
-├── context/        # State management (HealthContext)
-├── data/          # Initial data & affirmations
-├── types.ts       # TypeScript type definitions
-├── utils/         # Health insights engine
-└── main.tsx       # React entry point
-
-server.ts          # Express backend server
-vite.config.ts     # Vite configuration
-tsconfig.json      # TypeScript configuration
-```
 
 ## ✨ Features
 
@@ -84,6 +69,10 @@ tsconfig.json      # TypeScript configuration
 
 
 <img width="956" height="433" alt="image" src="https://github.com/user-attachments/assets/607b4426-69c4-4bb7-a35f-c09468660a2c" />
+
+
+<img width="954" height="436" alt="image" src="https://github.com/user-attachments/assets/ba4bb9a2-4ec5-4fef-b688-48131f033d33" />
+
 
 
 <img width="951" height="437" alt="image" src="https://github.com/user-attachments/assets/51f191d4-a8b8-44ea-9a64-78828667189f" />
@@ -110,6 +99,16 @@ tsconfig.json      # TypeScript configuration
 
 <img width="954" height="438" alt="image" src="https://github.com/user-attachments/assets/919a6164-fc1d-4d3e-bb5b-1d6f41f93bc5" />
 
+## 🏥 Health Copilot
+
+The AI-powered health companion provides:
+- Non-diagnostic health education
+- Pattern observation from your logs
+- Doctor appointment question suggestions
+- Lifecycle-specific wellness guidance
+- Red flag symptom detection
+
+**Important:** Copilot provides educational content, not medical diagnosis. Always consult healthcare providers for medical advice.
 
 
 ### 🔒 Privacy Center
@@ -123,56 +122,7 @@ tsconfig.json      # TypeScript configuration
 
 
 
-## 🔧 Environment Setup
 
-```env
-# Required for AI features (optional)
-GEMINI_API_KEY=your_gemini_api_key_here
-
-# Server configuration
-NODE_ENV=development
-PORT=3000
-```
-
-## 📦 Tech Stack
-
-**Frontend:**
-- React 19
-- TypeScript 5.8
-- Vite 6
-- Tailwind CSS 4
-- Lucide React (icons)
-- Recharts (charts)
-- Motion (animations)
-
-**Backend:**
-- Express.js
-- Node.js
-- Google Gemini AI (optional)
-- Helmet (security)
-- CORS (cross-origin)
-- Rate limiting
-
-## 🔐 Security Features
-
-✅ **Request Validation** - Input sanitization & size limits  
-✅ **Rate Limiting** - API throttling (100 req/15min)  
-✅ **Security Headers** - CSP, HSTS, X-Frame-Options  
-✅ **CORS** - Configurable origin restrictions  
-✅ **Error Handling** - Safe error responses  
-✅ **No Data Persistence** - Browser-only storage  
-✅ **Offline Support** - Works without internet  
-
-## 🏥 Health Copilot
-
-The AI-powered health companion provides:
-- Non-diagnostic health education
-- Pattern observation from your logs
-- Doctor appointment question suggestions
-- Lifecycle-specific wellness guidance
-- Red flag symptom detection
-
-**Important:** Copilot provides educational content, not medical diagnosis. Always consult healthcare providers for medical advice.
 
 ## 📝 License
 
