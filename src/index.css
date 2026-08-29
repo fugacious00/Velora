@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #FF788D;
+    --color-secondary: #FFDADA;
+    --color-primary-dark: #E85C71;
+    --color-primary-light: #FF94A4;
+    --color-secondary-subtle: #FFF5F7;
+    --color-secondary-border: #FFDADA;
+    
+    --color-canvas: #FFF9FA;
+    --color-surface: #FFFFFF;
+    --color-surface-hover: #FFF3F5;
+    
+    --color-text-primary: #2D2226;
+    --color-text-secondary: #735E65;
+    --color-text-muted: #8E7A81;
+    --color-border: #FFDADA;
+    --color-border-subtle: #FFEAEF;
+  }
+
+  html, body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--color-canvas, #FFF9FA);
+    color: var(--color-text-primary, #2D2226);
+    overscroll-behavior: none;
+  }
+  
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom app-like utilities */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.app-touch-target {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+
+
