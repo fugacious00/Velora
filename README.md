@@ -1,8 +1,8 @@
 # 🌸 Velora 
 # Your health. Your body. Your life
 
-Velora is a next-generation private AI-powered women's health and life companion designed to unify the major stages of a woman's health journey into one intelligent, personalized workspace.
-Velora adapts to the user's current life stage — from teen years and menstrual health through fertility, pregnancy, postpartum, motherhood, perimenopause, menopause, and healthy aging.
+Velora is a next-generation private AI-powered women's health and life companion designed to unify the major stages of a woman's health journey into one intelligent, personalized workspace. Velora adapts to the user's current life stage — from teen years and menstrual health through fertility, pregnancy, postpartum, motherhood, perimenopause, menopause, and healthy aging.
+
 Instead of presenting users with dozens of disconnected health modules, Velora uses its Women's Life Map™ to dynamically surface the features, information, insights, and tools that are relevant to each individual woman.
 Velora is built as a scalable, privacy-first SaaS platform focused on excellent UX, health-data security, personalization, accessibility, and production-grade architecture.
 
